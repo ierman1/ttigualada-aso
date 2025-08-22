@@ -4,7 +4,7 @@ import DefaultButton from '../components/DefaultButton.vue';
 </script>
 
 <template>
-    <section class="py-12">
+    <section class="py-16 mt-10">
         <article class="container mx-auto px-4 flex flex-col lg:flex-row items-baseline lg:gap-8">
             <h1 class="text-4xl md:text-6xl mb-4 modern-antiqua-regular">Welcome to your tabletop gaming haven!</h1>
             <div>
