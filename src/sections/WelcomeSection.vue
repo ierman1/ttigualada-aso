@@ -16,6 +16,9 @@ import DefaultButton from '../components/DefaultButton.vue';
         </article>
         <article class="container mx-auto px-4">
             <img src="/src/assets/mtg_banner_1.jpg" alt="Welcome Image" class="w-full h-auto mt-8 rounded-lg shadow-lg">
+            <p class="text-sm mt-1">
+                "<a rel="noopener noreferrer" href="https://commons.wikimedia.org/w/index.php?curid=43348832">Magic the Gathering - Commander</a>" by <a rel="noopener noreferrer" href="https://commons.wikimedia.org/w/index.php?title=User:Tourtefouille&action=edit&redlink=1">Tourtefouille</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-sa/4.0/?ref=openverse">CC BY-SA 4.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.
+            </p>
         </article>
     </section>
 </template>
