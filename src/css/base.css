@@ -1,11 +1,8 @@
 @import 'tailwindcss';
 
-@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Modern+Antiqua&display=swap');
-
-.almendra-regular {
-  font-family: "Almendra SC", serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+  font-family: "Modern Antiqua";
+  src: url("/src/assets/fonts/ModernAntiqua-Regular.ttf") format("truetype");
 }
 
 .modern-antiqua-regular {
