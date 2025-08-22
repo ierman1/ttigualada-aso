@@ -5,7 +5,7 @@ import DefaultButton from '../components/DefaultButton.vue';
 
 <template>
     <section class="py-12">
-        <div class="container mx-auto px-4 flex flex-col lg:flex-row items-baseline lg:gap-8">
+        <article class="container mx-auto px-4 flex flex-col lg:flex-row items-baseline lg:gap-8">
             <h1 class="text-4xl md:text-6xl mb-4 modern-antiqua-regular">Welcome to your tabletop gaming haven!</h1>
             <div>
                 <p class="text-lg modern-antiqua-regular">Join us for an exciting adventure in tabletop gaming! From Magic: The Gathering to Dungeons & Dragons, we provide a welcoming space for players of all levels.</p>
@@ -13,6 +13,9 @@ import DefaultButton from '../components/DefaultButton.vue';
                     Reserve a table
                 </DefaultButton>
             </div>
-        </div>
+        </article>
+        <article class="container mx-auto px-4">
+            <img src="/src/assets/mtg_banner_1.jpg" alt="Welcome Image" class="w-full h-auto mt-8 rounded-lg shadow-lg">
+        </article>
     </section>
 </template>
