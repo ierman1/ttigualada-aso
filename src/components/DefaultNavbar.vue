@@ -32,7 +32,7 @@ const closeMoreInfo = () => {
 
             <!-- Desktop Navigation - Centered -->
             <div class="flex-1 flex justify-center">
-                <ul class="hidden md:flex space-x-6 almendra-regular text-xl">
+                <ul class="hidden md:flex space-x-6 modern-antiqua-regular text-xl">
                 <li>
                     <a href="/" class="hover:text-gray-600 dark:hover:text-gray-400 transition-colors">Home Page</a>
                 </li>
@@ -53,7 +53,7 @@ const closeMoreInfo = () => {
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                         </svg>
                     </button>
-                    
+
                     <!-- Desktop More Info Dropdown -->
                     <div 
                         v-show="isMoreInfoOpen"
@@ -107,42 +107,42 @@ const closeMoreInfo = () => {
                 <a 
                     href="/" 
                     @click="closeMobileMenu"
-                    class="block px-4 py-3 almendra-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                    class="block px-4 py-3 modern-antiqua-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                 >
                     Home Page
                 </a>
                 <a 
                     href="/events" 
                     @click="closeMobileMenu"
-                    class="block px-4 py-3 almendra-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                    class="block px-4 py-3 modern-antiqua-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                 >
                     Events List
                 </a>
                 <a 
                     href="/reserve" 
                     @click="closeMobileMenu"
-                    class="block px-4 py-3 almendra-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                    class="block px-4 py-3 modern-antiqua-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                 >
                     Reserve Table
                 </a>
                 <a 
                     href="/contact" 
                     @click="closeMobileMenu"
-                    class="block px-4 py-3 almendra-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                    class="block px-4 py-3 modern-antiqua-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                 >
                     Contact Us
                 </a>
                 <a 
                     href="/privacy" 
                     @click="closeMobileMenu"
-                    class="block px-4 py-3 almendra-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                    class="block px-4 py-3 modern-antiqua-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                 >
                     Privacy Policy
                 </a>
                 <a 
                     href="/terms" 
                     @click="closeMobileMenu"
-                    class="block px-4 py-3 almendra-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                    class="block px-4 py-3 modern-antiqua-regular text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                 >
                     Terms of Service
                 </a>
